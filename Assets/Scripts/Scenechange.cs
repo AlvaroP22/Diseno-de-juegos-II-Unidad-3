@@ -8,4 +8,8 @@ public class Scenechange : MonoBehaviour
     public void Jugar(){
     SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
+
+    public void Restart(){
+    SceneManager.LoadScene("Escenaprincipal");
+    }
 }

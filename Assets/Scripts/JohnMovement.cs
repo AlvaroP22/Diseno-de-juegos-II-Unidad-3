@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JohnMovement : MonoBehaviour
 {
+    private int count = 0;
     public GameObject BulletPrefab;
     public float Speed;
     public float JumpForce;
@@ -69,6 +70,8 @@ public class JohnMovement : MonoBehaviour
 
         GameObject bullet = Instantiate(BulletPrefab, transform.position + direction * 0.1f, Quaternion.identity);
         bullet.GetComponent<BulletScript>().SetDirection(direction);
+        bullet.name = "bala" + count++;
+        Destroy(bullet, 2f);
     }
 
 }
