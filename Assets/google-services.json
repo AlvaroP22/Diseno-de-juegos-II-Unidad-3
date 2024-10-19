@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181663996773",
+    "project_id": "optativa-diseno-de-juegos-ii",
+    "storage_bucket": "optativa-diseno-de-juegos-ii.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181663996773:android:733dbb6c485f2c03ca9f8c",
+        "android_client_info": {
+          "package_name": "com.AlvaroPozos.TutorialCompletoUnity2D"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcdXDs2kmQ92YA1W3H-TtOiEX7OgzVQ1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
